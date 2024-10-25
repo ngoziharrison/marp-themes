@@ -76,8 +76,30 @@ mark {
 
 /*li {color: #e0def4 ;}*/
 
-.section-title > h1 {
-  font-size: larger;
+section.title h1 {
+  font-size: 300%;
+}
+
+section.title h1 {
+  font-size: 300%;
+}
+
+section.title-invert {
+  background-color: #003B5C;
+  color: #fff;
+  background-image: url('/Users/ngoziharrison/Documents/ngozi-obsidian/Files/logo_UCLA_white_boxed.png');
+}
+
+section.title-invert h1 {
+  font-size: 300%;
+  color: inherit;
+  
+}
+
+section.title-invert h1,
+section.title-invert footer,
+section.title-invert::after {
+  color: #fff;
 }
 
 
