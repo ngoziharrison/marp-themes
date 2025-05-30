@@ -1,6 +1,6 @@
 /*!
  * Marp theme
- * @theme ucla
+ * @theme dubois
  * @author Ngozi Harrison https://github.com/ngoziharrison
  *
 */
@@ -8,31 +8,33 @@
 @import 'default';
 
 :root {
-  background-color: #fff;
+  background-color: #F9EFE6;
   color: #000;
-  background-image: url('images/logo_UCLA_white_boxed.png');
-  background-repeat: no-repeat;
-  background-position: right 40px top 40px;
-  background-size: 8%;
+  font-family: Helvetica, Lato, Arial,  sans-serif;
 }
 
 section.lead {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/University_of_California%2C_Los_Angeles_logo.svg/2880px-University_of_California%2C_Los_Angeles_logo.svg.png');
-  background-position: right;
-  background-size: 45%;
+  
 }
 
 section h1,
 section a,
 section footer,
 section::after {
-  color: #0065bd;
+  color: #000;
 }
+
+
+section::after {
+
+  font-weight:bold;
+}
+
+
 
 section.invert {
   background-color: #003B5C;
   color: #fff;
-  background-image: url('images/logo_UCLA_white_boxed.png');
 }
 
 section.lead.invert {
@@ -60,6 +62,10 @@ section::after {
 }
 
 h1,  p, li { 
+  text-align: center;
+}
+
+li { 
   text-align: left;
 }
 
@@ -70,7 +76,7 @@ p {
 mark {
   color: #ffff;
   text-decoration: underline;
-  text-decoration-color: #FFB81C;
+  text-decoration-color: #ffd700;
   background: #003B5C;
 }
 
@@ -106,9 +112,8 @@ section.title-invert::after {
 blockquote {
   font-weight: bold;
   margin: 0;
-  background: #2C3A47;
+  background: #eee;
   padding: 1em;
-  color:#fff;
   
 }
 
@@ -124,19 +129,5 @@ svg[id^='mermaid-'] {
   margin: 0 auto;
 }
 
-table {
-  table-layout: fixed;
-  width: 100%;
-  height: 100%;
-  font-size: 1vw;
-}
-
-.container{
-  display: flex;
-  gap: 10%;
-}
-.col{
-  flex: 1;
-}
 
 
