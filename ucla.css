@@ -10,7 +10,7 @@
 :root {
   background-color: #fff;
   color: #000;
-  background-image: url('images/logo_UCLA_white_boxed.png');
+  background-image: url('/images/logo_UCLA_white_boxed.png');
   background-repeat: no-repeat;
   background-position: right 40px top 40px;
   background-size: 8%;
